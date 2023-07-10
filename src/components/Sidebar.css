@@ -1,0 +1,15 @@
+.sidebar-items{
+    background-color: #f8f8f8;
+    padding: 5px;
+    width: 15%;
+    height: 100vh;
+    overflow-y:auto ;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}

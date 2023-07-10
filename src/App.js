@@ -1,11 +1,21 @@
-
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import ContentArea from "./components/ContentArea";
+import './'
 
 function App() {
   return (
-    <div className="App">
-      lorem
+  <>
+    <Header/>
+    <div className="d-flex w-100">
+      <Sidebar />
+      <div>
+        <ContentArea />
+      </div>
     </div>
+  </>
   );
 }
 
